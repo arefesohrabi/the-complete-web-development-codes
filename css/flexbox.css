@@ -22,8 +22,24 @@
     /* flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 200px; */
-    flex: 1 1 0PX;
+
+    /* flex: 0 1 auto; */
+    /* flex: initial; */
+
+    /* flex: 1 1 auto; */
+    /* flex: auto; */
+
+    /* flex: 1 0 auto; */
+    /* flex: 1; */
+
+    /* flex: 0 0 auto; */
+    /* flex: none; */
+
+    flex: 1 0 200px;
 }
 #apple {
-    flex-grow:5;
+    flex:4;
+}
+#amazon {
+    flex: 2;
 }
